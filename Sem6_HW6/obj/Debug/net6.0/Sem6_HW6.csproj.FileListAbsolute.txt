@@ -1,0 +1,15 @@
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\bin\Debug\net6.0\Sem6_HW6.exe
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\bin\Debug\net6.0\Sem6_HW6.deps.json
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\bin\Debug\net6.0\Sem6_HW6.runtimeconfig.json
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\bin\Debug\net6.0\Sem6_HW6.dll
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\bin\Debug\net6.0\Sem6_HW6.pdb
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.csproj.AssemblyReference.cache
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.AssemblyInfoInputs.cache
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.AssemblyInfo.cs
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.csproj.CoreCompileInputs.cache
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.dll
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\refint\Sem6_HW6.dll
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.pdb
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\Sem6_HW6.genruntimeconfig.cache
+D:\Аналитика\GIT\CSharp_HomeWork\Sem6_HW6\obj\Debug\net6.0\ref\Sem6_HW6.dll
