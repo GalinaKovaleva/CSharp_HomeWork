@@ -242,69 +242,61 @@ public class Answer {
 // 9.00    11.00   13.00   15.00
 // */
 
+using System;
+
 public class Answer {
     public static void PrintArray (int [,] matrix)
     {
-      // Введите свое решение ниже
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
-
-        for (int i = 0; i < rows; i++)
+        for (int i=0; i<matrix.GetLength(0); i++)
         {
-            for (int j = 0; j < cols; j++)
+            for (int j=0; j<matrix.GetLength(1);j++)
             {
-                Console.Write(matrix[i, j] + " ");
+                Console.Write($"{matrix[i,j]}"+"\t");
             }
             Console.WriteLine();
         }
     }
-  
+
     public static int[,] CreateIncreasingMatrix(int n, int m, int k)
     {
-      // Введите свое решение ниже
-        int[,] matrix = new int[n, m];
-        int value = 1;
-
-        for (int i = 0; i < n; i++)
+        int[,] newMatrix = new int[n,m];
+        int currentValue = 1;
+        for (int i=0; i<n; i++)
         {
-            for (int j = 0; j < m; j++)
+            for (int j=0; j<m; j++)
             {
-                matrix[i, j] = value;
-                value += k;
+                newMatrix[i,j] = currentValue;
+                currentValue += k;
             }
         }
-        return matrix;
+        return newMatrix;
     }
-  
+
     static void PrintListAvr (double [] list)
     {
-      // Введите свое решение ниже
         Console.WriteLine("The averages in columns are: ");
-        for (int i = 0; i < list.Length; i++)
+        foreach (double el in list)
         {
-            Console.Write($"{list[i]:F2} ");
+            Console.Write($"{el:f2}"+"\t");
+
         }
         Console.WriteLine();
     }
 
     static double [] FindAverageInColumns (int [,] matrix)
     { 
-      // Введите свое решение ниже
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
-        double[] averages = new double[cols];
-
-        for (int j = 0; j < cols; j++)
+        double runningSum=0;
+        double [] columns = new double [matrix.GetLength(1)];
+        for (int j=0; j<matrix.GetLength(1);j++)
         {
-            double sum = 0;
-            for (int i = 0; i < rows; i++)
+            runningSum=0;
+            for (int i=0; i<matrix.GetLength(0);i++)
             {
-                sum += matrix[i, j];
+                runningSum=runningSum+matrix[i,j];
             }
-
-            averages[j] = sum / rows;
+            columns[j]=runningSum/matrix.GetLength(0);
         }
-        return averages;
+        return columns;
     }
 
 
